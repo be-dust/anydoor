@@ -1,0 +1,38 @@
+{
+  "name": "anydoorzx",
+  "version": "1.0.4",
+  "description": "使用nodejs搭建的静态资源服务器",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.11",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.2.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix"
+  },
+  "pre-commit": [
+    "lint",
+    "fix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/day-dreamerTo/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/day-dreamerTo/anydoor/issues"
+  },
+  "homepage": "https://github.com/day-dreamerTo/anydoor#readme"
+}
