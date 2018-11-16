@@ -69,3 +69,7 @@ build/
 npm-debug.log*
 *.logs
 dist/
+screenshot/*.png
+mn/*.png
+mn/*.jpg
+mn/*.gif

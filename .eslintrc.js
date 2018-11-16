@@ -3,7 +3,7 @@ module.exports = {
 	// 自定义规则 0:off, 1:warn, 2:error
 	"rules": {
 		"no-console": ["error", {
-			"allow": ["warn", "error", "info"]// 允许console.warn console.error console.info
+			"allow": ["warn", "error", "info", "log"]// 允许console.warn console.error console.info
 		}]
 	},
 	"parser": "babel-eslint", //配置解析器
