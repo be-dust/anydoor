@@ -1,6 +1,6 @@
 {
   "name": "anydoorzx",
-  "version": "1.0.4",
+  "version": "1.1.4",
   "description": "使用nodejs搭建的静态资源服务器",
   "main": "src/app.js",
   "bin": {
