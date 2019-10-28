@@ -1,5 +1,7 @@
+const getIPAdress = require('../helper/getIp');
+
 module.exports = {
-	hostname: '127.0.0.1',
+	hostname: getIPAdress() || '127.0.0.1',
 	port: '9527',
 	root: process.cwd(),
 	compress: /\.(html|js|css|md)/,
@@ -11,3 +13,4 @@ module.exports = {
 		etag: true
 	}
 }
+

@@ -7,7 +7,7 @@ const openUrl = require('./helper/openUrl')
 
 class Server {
 	constructor (config) {
-		this.conf = Object.assign({}, conf, config)
+		this.conf = Object.assign({}, conf, config)// assign 浅复制
 	}
 
 	start() {

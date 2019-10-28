@@ -4,7 +4,8 @@ module.exports = {
 	"rules": {
 		"no-console": ["error", {
 			"allow": ["warn", "error", "info", "log"]// 允许console.warn console.error console.info
-		}]
+		}],
+		"no-irregular-whitespace": 0
 	},
 	"parser": "babel-eslint", //配置解析器
 	"parserOptions": {
